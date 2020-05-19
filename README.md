@@ -8,4 +8,4 @@ I took an object oriented approach to solve this problem. I created two differen
 
 - Data preparation - `Removed those entries whose number of orders count were less than 3 and created dummies for 
 
-! [img] (https://raw.githubusercontent.com/trishanan/Recommendation-system/master/Capture.JPG)
+![img](https://raw.githubusercontent.com/trishanan/Recommendation-system/master/Capture.JPG)
