@@ -6,7 +6,7 @@ The aim of this project is to recommend products using various similarity scores
 
 I took an object oriented approach to solve this problem. I created two different classes, 'data_prep' , 'recommender_class'. I use the above mentioned classes in my notebook for the following purposes:
 
-- Data preparation - Removed those entries whose number of orders count were less than 3 and created dummies for the product column. Converted the matrix into boolean type.
+- Data preparation - For explanation purposes, I have created a simple matrix.Removed those entries whose number of orders count were less than 3 and created dummies for the product column. Converted the matrix into boolean type.
 - Creating a recommender system
       - The boolean matrix prepared by me for finding Jaccard similarity scores between two items.
       <div align=center>
