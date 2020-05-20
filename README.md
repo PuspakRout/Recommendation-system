@@ -6,13 +6,28 @@ The aim of this project is to recommend products using various similarity scores
 
 I took an object oriented approach to solve this problem. I created two different classes, 'data_prep' , 'recommender_class'. I use the above mentioned classes in my notebook for the following purposes:
 
-- Data preparation - `Removed those entries whose number of orders count were less than 3 and created dummies for the product column. Converted the matrix into boolean type.`
-- Creating a recommender system- 
-      - `The boolean matrix prepared by me for finding Jaccard similarity scores between two items 
-      - `Created an empty symmetric matrix that contains only the item names in both the rows and columns.`
-      - `Obtained similarity scores by applying Jaccard similarity formula (intersection / union) on the boolean matrix.`
-      - `Dot product is performed between the boolean matrix and the similarity matrix to create the recommendation matrix`
-      - `Sorted the similarity scores in the descending order and accordingly, recommended the products
+- Data preparation - Removed those entries whose number of orders count were less than 3 and created dummies for the product column. Converted the matrix into boolean type.
+- Creating a recommender system
+      - The boolean matrix prepared by me for finding Jaccard similarity scores between two items.
+      <div align=center>
+      <img src='images/data.png'>
+      </div>
+      - Created an empty symmetric matrix that contains only the item names in both the rows and columns.
+      <div align=center>
+      <img src='images/empty_similarity.png'>
+      </div>
+      - Obtained similarity scores by applying Jaccard similarity formula (intersection / union) on the boolean matrix.
+      <div align=center>
+      <img src='images/similarity.png'>
+      </div>
+      - Dot product is performed between the boolean matrix and the similarity matrix to create the recommendation matrix.
+      <div align=center>
+      <img src='images/rec_mat.png'>
+      </div>
+      - Sorted the similarity scores in the descending order and accordingly, recommended the products.
+      <div align=center>
+      <img src='images/recomendation.png'>
+      </div>
       
 ## Technologies/Libraries Used
   ```
